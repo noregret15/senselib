@@ -202,7 +202,7 @@ function Library:MakeDraggable(Instance, Cutoff)
         end
     end)
 
-    UserInputService.InputChanged:Connect(function(input)
+    InputService.InputChanged:Connect(function(input)
         if input == dragInput and dragging then
             update(input)
         end
