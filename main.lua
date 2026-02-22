@@ -2965,7 +2965,6 @@ function Library:CreateWindow(...)
     });
 
     local UICorn = Library:Create('UICorner', {
-        CornerRadius = 2.5;
         Parent = Outer;
     });
 
